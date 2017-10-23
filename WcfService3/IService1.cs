@@ -20,6 +20,7 @@ namespace WcfService3
 
 
         [OperationContract]
+
         CompositeType GetDataUsingDataContract(CompositeType composite);
 
         // TODO: Add your service operations here
